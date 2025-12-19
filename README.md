@@ -1,26 +1,32 @@
 # Wine Quality EDA
 
 ## Objective
-Exploratory Data Analysis (EDA) on the Wine Quality dataset. The goal is to understand variable distributions, relationships, and insights from physicochemical attributes.
+Exploratory Data Analysis (EDA) on the Wine Quality dataset.
+The goal is to understand variable distributions, relationships,
+and extract insights from physicochemical attributes.
 
 ## Dataset
-- Source: Kaggle – Wine Quality Dataset  
-- License: CC0 Public Domain (Open) :contentReference[oaicite:1]{index=1}
+This project uses the Wine Quality dataset from Kaggle.
+The dataset contains physicochemical features such as acidity,
+pH, alcohol, sulphates, and a quality score.
 
-## Contents
-- `wine_quality_eda.ipynb`: Jupyter notebook with EDA
-- `data/`: Dataset files
+The dataset is provided as a single CSV file (`WineQT.csv`)
+and is licensed under **CC0 Public Domain**.
 
-## Steps Included
+## Analysis Steps
 - Data loading and inspection
-- Missing value check
-- Univariate and bivariate analysis
+- Missing value analysis
+- Univariate analysis
 - Correlation analysis
-- Key visualizations and insights
+- Visualization of key relationships
 
-## Tools
+## Tools & Technologies
 - Python
 - Pandas
-- Matplotlib / Seaborn
+- NumPy
+- Matplotlib
+- Seaborn
 
-
+## Conclusion
+This EDA provides a clear understanding of the dataset structure
+and highlights key variables that influence wine quality.
